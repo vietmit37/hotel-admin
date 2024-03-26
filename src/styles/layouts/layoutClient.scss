@@ -1,0 +1,59 @@
+.sider {
+  height: 100vh !important;
+}
+
+.logo-sider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 50px;
+  }
+}
+
+.header {
+  padding: 0 16px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .theme-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .admin-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4px;
+
+      p {
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.option-select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bg-layout {
+  height: 100%;
+  width: 100%;
+  //background-image: url("/icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
